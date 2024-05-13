@@ -9,7 +9,7 @@ const { getUserData, createUserData } = require("./controller/userData");
 app.use(express.json());
 app.use(
 	cors({
-		origin:["https://m3bi.vercel.app/","http://localhost:3000","*"],
+		origin:["https://m3bi.vercel.app","http://localhost:3000","*"],
 		credentials:true,
 		
 	})
