@@ -16,6 +16,9 @@ const userSchema = new mongoose.Schema({
    },
    UID:{
     type:String
+   },
+   status:{
+    type:String
    }
    
 });
